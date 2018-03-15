@@ -68,6 +68,7 @@
 \newcommand{\githubsymbol}{\faGithub}
 \newcommand{\orcidsymbol}{\aiOrcid}
 \newcommand{\mailsymbol}{\faEnvelope}
+\newcommand{\certificatesymbol}{\faCertificate}
 
 \newcommand{\printinfo}[2]{\mbox{\textcolor{accent}{#1}\hspace{0.5em}#2\hspace{2em}}}
 
@@ -194,7 +195,7 @@
             \global\let\cumnum=\newcumnum
         }
       \end{scope}
-%      \draw[gray] (0,0) circle (\outerradius) circle (\innerradius);
+      \draw[gray] (0,0) circle (\outerradius) circle (\innerradius);
     \end{tikzpicture}\par
     \endgroup
 }
