@@ -38,6 +38,8 @@
 \usepackage[T1]{fontenc}
 \usepackage[default]{lato}
 
+\usepackage[hidelinks]{hyperref} 
+
 % If using xelatex or lualatex:
 % \setmainfont{Lato}
 
@@ -65,11 +67,11 @@
 \personalinfo{%
   % Not all of these are required!
   % You can add your own with \printinfo{symbol}{detail}
-  \email{me@alex-hollander.com}
+  \href{mailto:me@alex-hollander.com}{\email{me@alex-hollander.com}}
   \phone{214-490-6703}
   \location{Philadelphia, PA}
-  \homepage{alex-hollander.com}
-  \github{Ashen-Vaults}
+  \href{https://alex-hollander.com/}{\homepage{alex-hollander.com}}
+  \href{https://github.com/Ashen-Vaults}{\github{Ashen-Vaults}}
   \divider
   \divider
 }
