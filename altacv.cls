@@ -130,8 +130,8 @@
 
 \newcommand{\cvachievement}[4]{%
   \begin{tabularx}{\linewidth}{@{}p{2em} @{\hspace{1ex}} >{\raggedright\arraybackslash}X@{}}
-  \multirow{2}{*}{\Large\color{accent}#1} & \bfseries\textcolor{emphasis}{#2}\\
-  & #3 \\ & {\faCalendar \hspace{0.5em}#4}
+  \multirow{2}{*}{\Large\color{accent}#1} & \bfseries\textcolor{emphasis}{#2} \\
+  & {\faMapMarker\hspace{0.5em} #3} \\ & {\faCalendar \hspace{0.5em}#4}
   \end{tabularx}%
   \smallskip
 
