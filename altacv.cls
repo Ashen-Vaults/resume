@@ -133,7 +133,7 @@
   \multirow{0.5}{*}
   { \large\color{accent}#1} 
   & \bfseries\textcolor{emphasis}{#2} \\
-  & {\faMapMarker\hspace{0.5em}#3} \\
+  & {\faMapMarker\hspace{1.7ex}#3} \\
   & {\faCalendar\hspace{0.5em}#4}
   \end{tabularx}%
   \medskip
