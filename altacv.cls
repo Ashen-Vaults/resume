@@ -119,7 +119,7 @@
 }
 
 \newcommand{\cvevent}[4]{%
-  {\large\color{emphasis}#1\par}
+  {\bfseries\color{emphasis}#1\par}
   \smallskip
   \textbf{\color{accent}#2}\par
   \smallskip
@@ -130,11 +130,13 @@
 
 \newcommand{\cvachievement}[4]{%
   \begin{tabularx}{\linewidth}{@{}p{2em} @{\vspace{0.5ex}\hspace{1ex}} >{\raggedright\arraybackslash}X@{}}
-  \multirow{0.5}{*}{\Large\color{accent}#1} & \bfseries\textcolor{emphasis}{#2} \\
-  & {\faMapMarker\hspace{0.5em}#3} \\ & {\faCalendar \hspace{0.5em}#4}
+  \multirow{0.5}{*}
+  { \large\color{accent}#1} 
+  & \bfseries\textcolor{emphasis}{#2} \\
+  & {\faMapMarker\hspace{0.5em}#3} \\
+  & {\faCalendar\hspace{0.5em}#4}
   \end{tabularx}%
-  \smallskip
-
+  \medskip
 }
 
 \newcommand{\cvtag}[1]{%
